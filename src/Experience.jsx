@@ -22,7 +22,8 @@ const Experience = () => {
     {startGame&&<Model  />}
     {!startGame&&
     <mesh position={[0,1,0]} onClick={()=>setStartGame(true)}>
-    <Text position-y={1}>Click this box to start the Game</Text>
+    {/* <Text position-y={1}>Click this box to start the Game</Text> */}
+    <Html position-y={1}>Click this box to start the Game</Html>
     <boxGeometry/>
     <meshNormalMaterial />
     </mesh>}
@@ -30,7 +31,7 @@ const Experience = () => {
     <mesh>
     {/* <Text position={[0,1,-100]} color={"red"}>Find the Yellow Text in this scene.</Text> */}
     <Html position={[0,1,-100]} color={"red"}>Find the Yellow Text in this scene.</Html>
-    <Text position={[0,1,-20]}>Go staright you will find a Red Text.</Text>
+    {/* <Text position={[0,1,-20]}>Go staright you will find a Red Text.</Text> */}
     <Html position={[0,1,-20]}>Go staright you will find a Red Text.</Html>
     {/* <Text position={[-100,1,-100]} color={"yellow"}>Ok One more , on the Right you will Find The Pink Box.</Text>  */}
     <Html position={[-100,1,-100]} color={"yellow"}>Ok One more , on the Right you will Find The Pink Box.</Html> 
